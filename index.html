@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <title>Survey Form</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    </head>
+    <body>
      <h1 id="title">Survey Form</h1>
      <p id="description">Please fill out this form with the required information</p>
-     <form id="survey-form">
-        <input id="name" type="text" required placeholder="Abigael"> </input> 
-        <label id="name-label"> Name </label>
-        <input id="email" type="email" required placeholder="abigael.hawi@gmail.com" </input>
-        <label id="email-label"> Email Address </label>
-        <input id="number" type="number" min="10" max="15" placeholder="07123456789"</input>
-        <label id="number-label">Phone Number </label>
-        <p>What option best descries your current role?</p> 
-        <select name="roles" id="dropdown">  
-          <option value="student">Student</option>
-          <option value="professional">Professional</option> 
-        </select>
-      </form>
-  </body>
-</html>
+     <form id="survey-form"> 
+        
+            <label id="name-label"> Name </label><br/>
+            <input id="name" type="text" required placeholder="Abigael"> </input><br/>
+
+ 
+             <label id="email-label"> Email Address </label><br/>
+       <input id="email" type="email" required placeholder="abigael.hawi@gmail.com" </input><br/>
+     
+       <label id="number-label">Phone Number </label><br>
+         <input id="number" type="number" min="10" max="15" placeholder="07123456789"</input>
+ <p>What option best describes your current role?</p> 
+  <select name="roles" id="dropdown">  
+    <option value="student">Student</option>
+    <option value="professional">Professional</option> </select><br>
+    <input type="radio" value="Professional" name="radio-button">
+      </input><br>
+    <input type="radio" value="Student" name="radio-button">
+      </input><br>       
+  What improvments can be made to the survey form?
+    <br><input type="checkbox" value="Student"> Organisation
+      </input><br> 
+         <input type="checkbox" value="Professional"> Question Relevance
+  <label       </input><br>
+    <input type="checkbox" value="Professional"> Other
+      </input><br>
+       
+    <textarea> 
+      </textarea><br> 
+    <input id="submit" type="submit">
+          
+        </form>                
+     </body>
+    </html>
